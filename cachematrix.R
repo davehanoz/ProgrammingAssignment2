@@ -33,7 +33,6 @@ makeCacheMatrix <- function(x = matrix()) {
        getsolve = getsolve)
 }
 
-
 ## cacheSolve function calculates the inversion of the matrix which was created with the above function. 
 ## Firstly, it checks to see if the inversion is existed with getsolve function. 
 ## If so, it gets the inversion from the cache and skips the computation. 
